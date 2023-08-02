@@ -1,0 +1,12 @@
+<meta>
+	<oop>true</oop>
+	<info author="Haoqian He, -ffs-PLASMA" version="1.0.0" name="LibDeflate for MTA:SA" description="LibDeflate is pure Lua compressor and decompressor with high compression ratio, which compresses almost as good as zlib." type="script"/>
+	
+	<script src="LibDeflate.lua" type="shared"/>
+	<script src="main.lua" type="shared"/>
+	<script src="testing_client.lua" type="client"/>
+	<script src="testing_server.lua" type="server"/>
+	
+	<export function="compress" type="shared"/>
+	<export function="decompress" type="shared"/>
+</meta>
